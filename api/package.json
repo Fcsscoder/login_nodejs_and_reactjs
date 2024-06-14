@@ -4,7 +4,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/server.js localhost 3000"
+    "dev": "nodemon ./src/server.js localhost 3000"
   },
   "keywords": [],
   "author": "",
