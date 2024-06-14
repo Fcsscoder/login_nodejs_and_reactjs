@@ -1,0 +1,100 @@
+@use '../mixins.scss' as m;
+@use '../variables.scss' as v;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.user-container {
+  display: inline-block;
+  background-color: v.$white-color;
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 600px v.$primary-color;
+  transition: 2 ease;
+
+  h2 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px;
+    color: v.$primary-color;
+  }
+  
+  input[type="password"],
+  input[type="email"],
+  input[type="text"] {
+    @include m.input()
+  }
+  
+  .btn-back {
+    @include m.button(v.$primary-color, v.$white-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .btn-create {
+    @include m.button(v.$primary-color, v.$white-color);
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  
+  .btn-login {
+    @include m.button(v.$primary-color, v.$white-color);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-register {
+    @include m.button(v.$primary-color, v.$white-color);
+  }
+
+  .login-container, .register-container {
+    width: 450px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: v.$primary-color;
+  }
+
+  .user-connected-container {
+    display: flex;
+    max-width: 850px;
+    
+    .user-actions-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 350px;
+
+      #btn-removeuser {
+        @include m.button(red, v.$white-color)
+      }
+    }
+    
+    .edituser-container {
+      width: 400px;
+      padding-left: 20px;
+      border-left: 1px solid v.$primary-color;
+  
+      #btn-edituser {
+        margin-top: 20px;
+      }
+  
+      h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: v.$primary-color;
+        margin: 10px;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+
+  
