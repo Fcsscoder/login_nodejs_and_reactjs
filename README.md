@@ -9,7 +9,7 @@
 
 # Sobre
 
-Um projeto Full Stack de uma tela de login integrada com uma API desenvolvida em Node.js e Express, que valida as informações do usuário por meio do banco de dados MySQL. A API é capaz de acessar, remover e criar contas com email e senha, além de editar dados do banco. O client foi desenvolvido usando React.js e estilização foi feita com o pré-processador SASS.
+Um projeto Full Stack de uma interface de login integrada com uma API desenvolvida em Node.js e Express, que valida as informações do usuário por meio do banco de dados MySQL. A API é capaz de acessar, remover e criar contas com email e senha, além de editar dados do banco. O client foi desenvolvido usando React.js e estilização foi feita com o pré-processador SASS.
 
 https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc
 
