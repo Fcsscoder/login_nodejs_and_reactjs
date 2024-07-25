@@ -25,8 +25,8 @@ Este é um projeto Full Stack que consiste em uma interface de login integrada c
 
 ### Client
 - Interface de Login
-- Navbar de navegação
 - Registro de novos usuários
+- Edição/Remoção de informações dos usuários
 
 ## Tecnologias Utilizadas
 
