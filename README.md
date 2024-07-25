@@ -31,31 +31,31 @@ Um projeto Full Stack de uma interface de login integrada com uma API desenvolvi
 
 ## API
 
-### Navegue para o diretório da API
+#### Navegue para o diretório da API
 ```bash
 cd api
 ```
 
-### Instale as dependências
+#### Instale as dependências
 ```bash
 npm install
 ```
 
 ## Client
 
-### Navegue para o diretório da página
+#### Navegue para o diretório da página
 ```bash
 cd client
 ```
 
-### Instale as dependências
+#### Instale as dependências
 ```bash
 npm install
 ```
 
 ## Execução
 
-### API / Client (mesmo script)
+#### API / Client (mesmo script)
 
 ```bash
 npm run dev
