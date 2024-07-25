@@ -24,26 +24,38 @@ Um projeto Full Stack de uma interface de login integrada com uma API desenvolvi
 
 # Instalação
 
-### Pré-requisitos
+## Pré-requisitos
 
 - Node.js
 - NPM (Node Package Manager)
 
-### Api
+## API
+
+### Navegue para o diretório da API
 ```bash
 cd api
+```
+
+### Instale as dependências
+```bash
 npm install
 ```
 
 ### Client
+
+### Navegue para o diretório da página
 ```bash
 cd client
+```
+
+### Instale as dependências
+```bash
 npm install
 ```
 
 # Execução
 
-### Api / Client
+### API / Client (mesmo script)
 
 ```bash
 npm run dev
