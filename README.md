@@ -30,19 +30,21 @@ Um projeto Full Stack de uma interface de login integrada com uma API desenvolvi
 - NPM (Node Package Manager)
 
 ### Api
-<pre>
-$ cd api
-$ npm install
-</pre>
-
+```bash
+cd api
+npm install
+```
 
 ### Client
-<pre>
-$ cd client
-$ npm install
-</pre>
+```bash
+cd client
+npm install
+```
 
 # Execução
 
 ### Api / Client
-<pre>$ npm run dev</pre>
+
+```bash
+npm run dev
+```
