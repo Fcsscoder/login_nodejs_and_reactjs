@@ -41,7 +41,7 @@ cd api
 npm install
 ```
 
-### Client
+## Client
 
 ### Navegue para o diretório da página
 ```bash
@@ -53,7 +53,7 @@ cd client
 npm install
 ```
 
-# Execução
+## Execução
 
 ### API / Client (mesmo script)
 
