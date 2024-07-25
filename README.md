@@ -9,11 +9,9 @@
 
 # Sobre
 
-Um projeto Full Stack de uma tela de login integrada com uma API desenvolvida em Node.js e Express, que valida as informações do usuário por meio do banco de dados MySQL. A API é capaz de acessar, remover e criar contas com email e senha, além de editar dados do banco. O client foi desenvolvido usando React.js e estilização foi feita com o pré-processador SASS.
+Um projeto Full Stack de uma interface de login integrada com uma API desenvolvida em Node.js e Express, que valida as informações do usuário por meio do banco de dados MySQL. A API é capaz de acessar, remover e criar contas com email e senha, além de editar dados do banco. O client foi desenvolvido usando React.js e estilização foi feita com o pré-processador SASS.
 
-https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc
-
-![image](https://github.com/Fcsscoder/login_mysql/assets/147114358/478dff2e-6275-4f3b-ba16-977f6b74a02a)
+[https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc](https://github.com/user-attachments/assets/865c3ffe-eb48-4d3d-b93e-f4afc2e2b855)
 
 # Tecnologias
 
@@ -26,25 +24,39 @@ https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bb
 
 # Instalação
 
-### Pré-requisitos
+## Pré-requisitos
 
 - Node.js
 - NPM (Node Package Manager)
 
-### Api
-<pre>
-$ cd api
-$ npm install
-</pre>
+## API
 
+#### Navegue para o diretório da API
+```bash
+cd api
+```
 
-### Client
-<pre>
-$ cd client
-$ npm install
-</pre>
+#### Instale as dependências
+```bash
+npm install
+```
 
-# Execução
+## Client
 
-### Api / Client
-<pre>$ npm run dev</pre>
+#### Navegue para o diretório da página
+```bash
+cd client
+```
+
+#### Instale as dependências
+```bash
+npm install
+```
+
+## Execução
+
+#### API / Client (mesmo script)
+
+```bash
+npm run dev
+```
