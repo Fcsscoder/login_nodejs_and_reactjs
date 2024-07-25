@@ -13,8 +13,6 @@ Um projeto Full Stack de uma interface de login integrada com uma API desenvolvi
 
 [https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc](https://github.com/user-attachments/assets/865c3ffe-eb48-4d3d-b93e-f4afc2e2b855)
 
-![image](https://github.com/Fcsscoder/login_mysql/assets/147114358/478dff2e-6275-4f3b-ba16-977f6b74a02a)
-
 # Tecnologias
 
 * Javascript
