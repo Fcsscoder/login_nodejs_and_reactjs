@@ -47,7 +47,10 @@ Este é um projeto Full Stack que consiste em uma interface de login integrada c
 
 ### Configuração do Back-end
 1. Navegue até o diretório `api`.
-2. Instale as dependências com o comando:
+```bash
+cd api
+```
+3. Instale as dependências com o comando:
    
 ```bash
 npm install
