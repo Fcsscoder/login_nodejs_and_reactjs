@@ -48,24 +48,34 @@ Este é um projeto Full Stack que consiste em uma interface de login integrada c
 ### Configuração do Back-end
 1. Navegue até o diretório `api`.
 2. Instale as dependências com o comando:
-   ```bash
-   npm install
-3. Configure o banco de dados em `conn.js`.
-4. Inicie o servidor com o comando:
-   ```bash
-   npm start
+   
+```bash
+npm install
+```
+   
+4. Configure o banco de dados em `conn.js`.
+5. Inicie o servidor com o comando:
+   
+```bash
+npm start
+```
 
 ### Configuração do Front-end
 
 1. Navegue até o diretório client:
+   
 ```bash
-   cd client
+cd client
 ```
+
 2. Instale as dependências com o comando:
+   
 ```bash
-   npm install
+npm install
 ```
+
 3. Inicie a aplicação React com o comando:
+   
 ```bash
-   npm run dev
+npm run dev
 ```
