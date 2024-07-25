@@ -7,56 +7,65 @@
     <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"></img>
 </p>
 
-# Sobre
+# Projeto Full Stack de Interface de Login
 
-Um projeto Full Stack de uma interface de login integrada com uma API desenvolvida em Node.js e Express, que valida as informações do usuário por meio do banco de dados MySQL. A API é capaz de acessar, remover e criar contas com email e senha, além de editar dados do banco. O client foi desenvolvido usando React.js e estilização foi feita com o pré-processador SASS.
+Este é um projeto Full Stack que consiste em uma interface de login integrada com uma API desenvolvida em Node.js e Express. O projeto inclui validação de informações de usuários utilizando um banco de dados MySQL e um cliente desenvolvido em React.js com estilização feita através do pré-processador SASS.
+
 
 [https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc](https://github.com/user-attachments/assets/865c3ffe-eb48-4d3d-b93e-f4afc2e2b855)
 
-# Tecnologias
+## Funcionalidades
 
-* Javascript
-* Node.js
-* Express
-* MySQL
-* React
-* SASS
+### API
+- Acessar informações de contas de usuários
+- Remover contas de usuários
+- Criar novas contas com email e senha
+- Editar dados de contas de usuários no banco de dados
 
-# Instalação
+### Client
+- Interface de Login
+- Navbar de navegação
+- Registro de novos usuários
 
-## Pré-requisitos
+## Tecnologias Utilizadas
 
-- Node.js
-- NPM (Node Package Manager)
+### Back-end
+- **Node.js**: Plataforma de desenvolvimento para o servidor.
+- **Express**: Framework para construção de rotas e gerenciamento de requisições.
+- **MySQL**: Banco de dados utilizado para armazenar informações dos usuários.
+- **Sequelize**: ORM utilizado para interagir com o banco de dados MySQL.
 
-## API
+### Front-end
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **SASS**: Pré-processador CSS utilizado para estilização da aplicação.
 
-#### Navegue para o diretório da API
+## Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js instalado
+- MySQL instalado e configurado
+
+### Configuração do Back-end
+1. Navegue até o diretório `api`.
+2. Instale as dependências com o comando:
+   ```bash
+   npm install
+3. Configure o banco de dados em `conn.js`.
+4. Inicie o servidor com o comando:
+   ```bash
+   npm start
+
+### Configuração do Front-end
+
+1. Navegue até o diretório client:
 ```bash
-cd api
+   cd client
 ```
-
-#### Instale as dependências
+2. Instale as dependências com o comando:
 ```bash
-npm install
+   npm install
 ```
-
-## Client
-
-#### Navegue para o diretório da página
+3. Inicie a aplicação React com o comando:
 ```bash
-cd client
-```
-
-#### Instale as dependências
-```bash
-npm install
-```
-
-## Execução
-
-#### API / Client (mesmo script)
-
-```bash
-npm start
+   npm run dev
 ```
