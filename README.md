@@ -58,5 +58,5 @@ npm install
 #### API / Client (mesmo script)
 
 ```bash
-npm run dev
+npm start
 ```
