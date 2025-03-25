@@ -8,9 +8,11 @@
     <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white" alt="Sequelize"></img>
 </p>
 
-# Projeto Full Stack de Interface de Login
+<h1 align="center">Projeto Full Stack de Interface de Login</h1>
 
-Este é um projeto Full Stack que consiste em uma interface de login integrada com uma API desenvolvida em Node.js e Express. O projeto inclui validação de informações de usuários utilizando um banco de dados MySQL e um cliente desenvolvido em React.js com estilização feita através do pré-processador SASS.
+<p align="center">
+    Este é um projeto Full Stack que consiste em uma interface de login integrada com uma API desenvolvida em Node.js e Express. O projeto inclui validação de informações de usuários utilizando um banco de dados MySQL e um cliente desenvolvido em React.js com estilização feita através do pré-processador SASS.
+</p>
 
 
 [https://github.com/Fcsscoder/login_mysql/assets/147114358/5e12e70f-fc9c-418d-8bbe-f0908acb2dfc](https://github.com/user-attachments/assets/865c3ffe-eb48-4d3d-b93e-f4afc2e2b855)
