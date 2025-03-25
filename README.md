@@ -10,7 +10,7 @@
 
 <h1 align="center">Projeto Full Stack de Interface de Login</h1>
 
-<p align="center">
+<p>
     Este é um projeto Full Stack que consiste em uma interface de login integrada com uma API desenvolvida em Node.js e Express. O projeto inclui validação de informações de usuários utilizando um banco de dados MySQL e um cliente desenvolvido em React.js com estilização feita através do pré-processador SASS.
 </p>
 
